@@ -14,6 +14,7 @@ namespace HospitalityDoors
         private int entryCost = DefaultCost;
         private bool payPerEntry = false;
         private HashSet<Pawn> paidPawns = new HashSet<Pawn>();
+        private int lifetimeEarnings = 0;
         
         // Exemption settings
         private bool exemptColonists = true;
@@ -57,6 +58,8 @@ namespace HospitalityDoors
             set => exemptPrisoners = value;
         }
         
+        public int LifetimeEarnings => lifetimeEarnings;
+        
         public bool IsEnabled => entryCost > 0;
         
         public override void PostSpawnSetup(bool respawningAfterLoad)
@@ -94,6 +97,7 @@ namespace HospitalityDoors
             Scribe_Values.Look(ref exemptColonists, "exemptColonists", true);
             Scribe_Values.Look(ref exemptAllies, "exemptAllies", true);
             Scribe_Values.Look(ref exemptPrisoners, "exemptPrisoners", false);
+            Scribe_Values.Look(ref lifetimeEarnings, "lifetimeEarnings", 0);
             Scribe_Collections.Look(ref paidPawns, "paidPawns", LookMode.Reference);
             
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
@@ -117,8 +121,8 @@ namespace HospitalityDoors
             // Also exempt any player-controlled pawns (colonists, slaves under player control, etc.)
             if (exemptColonists && pawn.IsColonistPlayerControlled) return true;
             
-            // Exempt allies
-            if (exemptAllies && pawn.Faction != null && pawn.Faction.RelationKindWith(Faction.OfPlayer) == FactionRelationKind.Ally) return true;
+            // Exempt allies (but don't check relation if it's the player faction itself)
+            if (exemptAllies && pawn.Faction != null && pawn.Faction != Faction.OfPlayer && pawn.Faction.RelationKindWith(Faction.OfPlayer) == FactionRelationKind.Ally) return true;
             
             // Exempt prisoners if enabled
             if (exemptPrisoners && pawn.IsPrisoner) return true;
@@ -173,6 +177,9 @@ namespace HospitalityDoors
             if (silver.stackCount <= 0)
                 silver.Destroy();
             
+            // Track lifetime earnings
+            lifetimeEarnings += entryCost;
+            
             // Track payment for pay-once mode
             if (!payPerEntry)
                 paidPawns.Add(pawn);
@@ -189,6 +196,14 @@ namespace HospitalityDoors
         public void ClearPaidPawns()
         {
             paidPawns.Clear();
+        }
+        
+        /// <summary>
+        /// Resets the lifetime earnings counter
+        /// </summary>
+        public void ResetLifetimeEarnings()
+        {
+            lifetimeEarnings = 0;
         }
         
         public override string CompInspectStringExtra()

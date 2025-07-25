@@ -46,7 +46,7 @@ namespace HospitalityDoors
             return true;
         }
         
-        // Add our gizmos to doors that have the PayGate component
+        // Add our gizmo to doors that have the PayGate component
         [HarmonyPatch(nameof(Building_Door.GetGizmos))]
         [HarmonyPostfix]
         public static void GetGizmos_Postfix(Building_Door __instance, ref System.Collections.Generic.IEnumerable<Gizmo> __result)
@@ -58,12 +58,9 @@ namespace HospitalityDoors
                 
                 var gizmos = __result.ToList();
                 
-                // Add the payment mode toggle gizmo (shows prominently)
+                // Add the single "Paid Door?" configuration gizmo
                 var selectedDoors = new[] { __instance };
-                gizmos.Add(new Gizmo_PayGateModeToggle(selectedDoors));
-                
-                // Add the cost adjustment gizmo
-                gizmos.Add(new Gizmo_PayGateDoor(selectedDoors));
+                gizmos.Add(new Gizmo_PaidDoor(selectedDoors));
                 
                 __result = gizmos;
             }
