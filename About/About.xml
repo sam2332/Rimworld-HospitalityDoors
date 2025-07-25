@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Hospitality Pay-to-Access Doors</name>
+  <name>[PL] Hospitality Pay-to-Access Doors</name>
   <author>ProgrammerLily</author>
   <packageId>ProgrammerLily.HospitalityDoors.com</packageId>
   <description>Adds a pay-to-access system to doors, perfect for monetizing guest access to valuable rooms like spas, arcades, or luxury bedrooms.
@@ -24,6 +24,11 @@ Perfect for creating premium areas that guests must pay to enter!</description>
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>Orion.Hospitality</packageId>
+      <displayName>Hospitality</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=753498552</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>

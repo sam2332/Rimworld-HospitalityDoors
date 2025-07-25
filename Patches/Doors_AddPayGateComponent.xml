@@ -3,28 +3,33 @@
   <!-- Add PayGate component to all door types -->
   <Operation Class="PatchOperationSequence">
     <operations>
-      <!-- Patch basic Door -->
+      <!-- Add PayGate component to all doors that inherit from DoorBase -->
       <li Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Door"]/comps</xpath>
+        <xpath>/Defs/ThingDef[@ParentName="DoorBase"]/comps</xpath>
         <value>
           <li Class="HospitalityDoors.CompProperties_PayGate" />
         </value>
       </li>
       
-      <!-- Patch Autodoor -->
+      <!-- Also target doors by thingClass for comprehensive coverage -->
       <li Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Autodoor"]/comps</xpath>
+        <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps/li[@Class="HospitalityDoors.CompProperties_PayGate"])]/comps</xpath>
         <value>
           <li Class="HospitalityDoors.CompProperties_PayGate" />
         </value>
       </li>
       
-      <!-- Fallback: Add to any door that inherits from DoorBase -->
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[parentName="DoorBase" and not(comps/li[@Class="HospitalityDoors.CompProperties_PayGate"])]/comps</xpath>
-        <value>
-          <li Class="HospitalityDoors.CompProperties_PayGate" />
-        </value>
+      <!-- Handle doors that might not have comps section yet -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps)]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps)]</xpath>
+          <value>
+            <comps>
+              <li Class="HospitalityDoors.CompProperties_PayGate" />
+            </comps>
+          </value>
+        </match>
       </li>
     </operations>
   </Operation>
