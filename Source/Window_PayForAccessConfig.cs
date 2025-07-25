@@ -66,6 +66,7 @@ namespace HospitalityDoors
             {
                 listing.Label("No valid doors selected.");
                 listing.End();
+                Widgets.EndScrollView();
                 return;
             }
             
@@ -128,6 +129,7 @@ namespace HospitalityDoors
             {
                 listing.Label("Enable Pay-for-Access to configure settings.");
                 listing.End();
+                Widgets.EndScrollView();
                 return;
             }
             

@@ -210,4 +210,19 @@ private static bool IsRobot(Pawn pawn)
 - ✅ Works with Misc. Robots++ and pattern-matches other robot mods
 - ✅ Safe implementation that won't break if robot mods aren't installed
 
-### 🎯 NEXT: Test in-game to confirm robots can pass through doors freely!
+### 🐛 BUG FIX: ScrollView Stack Imbalance
+- **Problem**: "Mouse position stack is not empty" error on window close
+- **Root Cause**: Early returns in Window_PayForAccessConfig didn't call `Widgets.EndScrollView()`
+- **Fix**: Added `Widgets.EndScrollView()` calls before both early returns
+- **Status**: ✅ FIXED - Window now properly balances BeginScrollView/EndScrollView calls
+
+### 🔍 IMPROVEMENT: Inspect String Behavior
+- **Issue**: Lifetime earnings only showed when guests had paid, incorrect indentation
+- **Fix**: 
+  - Disabled doors return `null` (no payment info shown)
+  - Enabled doors always show lifetime earnings
+  - Fixed indentation formatting
+- **Result**: Clean inspect panel behavior - only payment-enabled doors show payment info
+- **Status**: ✅ FIXED
+
+### 🎯 NEXT: Test in-game to confirm robots can pass through doors freely and window closes cleanly!

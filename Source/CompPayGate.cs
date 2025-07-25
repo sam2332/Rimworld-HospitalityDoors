@@ -302,7 +302,9 @@ namespace HospitalityDoors
             
             if (!payPerEntry && paidPawns.Count > 0)
                 parts.Add($"Paid guests: {paidPawns.Count}");
-                parts.Add($"Lifetime earnings: {((float)lifetimeEarnings).ToStringMoney()}");
+            
+            // Always show lifetime earnings for enabled doors
+            parts.Add($"Lifetime earnings: {((float)lifetimeEarnings).ToStringMoney()}");
                 
             var exemptions = new List<string>();
             if (exemptColonists) exemptions.Add("colonists");
