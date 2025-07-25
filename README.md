@@ -1,4 +1,11 @@
-# Hospitality Pay-to-Access Doors
+# Hospitality P### 🎯 Smart Exemptions
+Automatically exempts from payment:
+- Your colonists and their pets
+- Prisoners and slaves
+- Animals (wild and tamed)
+- **Robots** (Misc. Robots++ and other robot mods)
+- **Visitors leaving the map** (Fire escape protocol)
+- Anyone you don't want to chargeccess Doors
 
 A RimWorld mod that adds configurable payment requirements to doors, perfect for creating premium areas in your hospitality setup.
 
@@ -32,6 +39,7 @@ Automatically exempts from payment:
 - **Smart Placement**: Silver appears in accessible locations near doors
 - **Lifetime Earnings**: Track total income from each door
 - **Real-time Feedback**: See payments accumulate visually
+- **Fire Escape Protocol**: Visitors can always leave the map without payment
 
 ### 🎮 Easy-to-Use Interface
 - **Single-Click Configuration**: One button opens a comprehensive settings window
@@ -87,7 +95,8 @@ The configuration window provides comprehensive control over:
 - **Pay Every Time Mode**: Guest must pay each time they want to pass through
 - **Silver Collection**: Payments are physically dropped at the door for collection
 - **Robot Exemption**: Robots are exempt by default but can be configured to pay
-- Guests without enough silver will be blocked from passing
+- **Fire Escape**: Visitors heading to map edges can pass without payment (safety feature)
+- Guests without enough silver will be blocked from passing (unless leaving map)
 - All payments are deducted from the guest's inventory
 
 ## Technical Details
@@ -145,6 +154,7 @@ dotnet build Source/Project.csproj --configuration Release
 - ✅ **Visual Silver Drops**: Payments now appear as physical silver at doors
 - ✅ **Enhanced UI**: Added robot exemption controls to configuration window
 - ✅ **Lifetime Earnings**: Track total income from each door over time
+- ✅ **Fire Escape Protocol**: Visitors can always leave the map without being blocked
 
 ## Credits
 

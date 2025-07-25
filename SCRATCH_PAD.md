@@ -225,4 +225,14 @@ private static bool IsRobot(Pawn pawn)
 - **Result**: Clean inspect panel behavior - only payment-enabled doors show payment info
 - **Status**: ✅ FIXED
 
-### 🎯 NEXT: Test in-game to confirm robots can pass through doors freely and window closes cleanly!
+### 🚨 NEW FEATURE: Fire Escape Protocol
+- **Issue**: Visitors could get trapped trying to leave the base
+- **Solution**: Automatic exemption for visitors trying to exit the map
+- **Logic**: 
+  - Detects when pawns are moving toward map edges (within 3 cells)
+  - Only applies to non-colonist pawns (guests/visitors)
+  - Prevents abuse by player-controlled pawns
+- **Safety**: Ensures guests can always escape without payment
+- **Status**: ✅ IMPLEMENTED
+
+### 🎯 NEXT: Test in-game to confirm robots can pass through doors freely, window closes cleanly, and fire escape works!

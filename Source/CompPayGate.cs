@@ -172,7 +172,43 @@ namespace HospitalityDoors
             // Exempt robots if enabled (default)
             if (exemptRobots && IsRobot(pawn)) return true;
             
+            // Fire escape protocol: Allow visitors to leave the map without payment
+            if (IsLeavingMap(pawn)) return true;
+            
             return false;
+        }
+        
+        /// <summary>
+        /// Checks if a pawn is trying to leave the map (fire escape protocol)
+        /// </summary>
+        private bool IsLeavingMap(Pawn pawn)
+        {
+            if (pawn?.pather?.Moving != true) return false;
+            
+            // Check if the pawn's destination is near a map edge
+            var destination = pawn.pather.Destination;
+            if (!destination.IsValid) return false;
+            
+            var map = pawn.Map;
+            if (map == null) return false;
+            
+            var destCell = destination.Cell;
+            var mapSize = map.Size;
+            
+            // Consider a pawn as "leaving" if their destination is within 3 cells of any map edge
+            const int exitZone = 3;
+            bool nearEdge = destCell.x <= exitZone || 
+                           destCell.z <= exitZone || 
+                           destCell.x >= mapSize.x - exitZone || 
+                           destCell.z >= mapSize.z - exitZone;
+            
+            if (!nearEdge) return false;
+            
+            // Additional check: is this a guest/visitor trying to leave?
+            // This prevents colonists from abusing the fire escape to avoid payment
+            if (pawn.IsColonist || pawn.IsColonistPlayerControlled) return false;
+            
+            return true;
         }
         
         /// <summary>
@@ -312,6 +348,7 @@ namespace HospitalityDoors
             if (exemptPrisoners) exemptions.Add("prisoners");
             if (exemptRobots) exemptions.Add("robots");
             exemptions.Add("animals"); // Always exempt
+            exemptions.Add("visitors leaving map"); // Fire escape protocol
             
             if (exemptions.Count > 0)
                 parts.Add($"Exempt: {string.Join(", ", exemptions)}");
