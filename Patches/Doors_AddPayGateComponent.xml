@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Add PayGate component to all door types -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Patch basic Door -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Door"]/comps</xpath>
+        <value>
+          <li Class="HospitalityDoors.CompProperties_PayGate" />
+        </value>
+      </li>
+      
+      <!-- Patch Autodoor -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Autodoor"]/comps</xpath>
+        <value>
+          <li Class="HospitalityDoors.CompProperties_PayGate" />
+        </value>
+      </li>
+      
+      <!-- Fallback: Add to any door that inherits from DoorBase -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[parentName="DoorBase" and not(comps/li[@Class="HospitalityDoors.CompProperties_PayGate"])]/comps</xpath>
+        <value>
+          <li Class="HospitalityDoors.CompProperties_PayGate" />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

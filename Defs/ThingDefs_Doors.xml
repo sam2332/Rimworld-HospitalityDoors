@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Patch to add PayGate component to all doors -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationFindMod">
+        <mods>
+          <li>Core</li>
+        </mods>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[parentName="DoorBase"]/comps</xpath>
+        <value>
+          <li Class="HospitalityDoors.CompProperties_PayGate">
+            <defaultCost>5</defaultCost>
+            <defaultPayPerEntry>false</defaultPayPerEntry>
+            <defaultExemptColonists>true</defaultExemptColonists>
+            <defaultExemptAllies>true</defaultExemptAllies>
+            <defaultExemptPrisoners>false</defaultExemptPrisoners>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Defs>
