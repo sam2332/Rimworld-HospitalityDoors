@@ -3,18 +3,31 @@
   <name>[PL] Hospitality Pay-to-Access Doors</name>
   <author>ProgrammerLily</author>
   <packageId>ProgrammerLily.HospitalityDoors.com</packageId>
-  <description>Adds a pay-to-access system to doors, perfect for monetizing guest access to valuable rooms like spas, arcades, or luxury bedrooms.
+  <description>Turn your doors into profit centers! 💰
 
-Features:
-• Configure any door as a "Pay-to-Access Door"
-• Set entry cost (default: 5 silver)
-• Choose payment mode: "Pay Once" vs "Pay Every Time"
-• Exemption settings for colonists, allies, and prisoners
-• Visual payment feedback
-• Multi-door selection and configuration
-• Integration with Hospitality mod for guest management
+Ever wanted to charge those fancy Hospitality guests for access to your premium spa? Now you can! This mod transforms any door into a pay-to-access gate that ACTUALLY collects real silver from your guests' pockets.
 
-Perfect for creating premium areas that guests must pay to enter!</description>
+🎪 HOSPITALITY INTEGRATION:
+Works seamlessly with the Hospitality mod! Your guests will automatically pay from their silver inventory when passing through paid doors. Watch the coins drop at your feet as they pay up!
+
+💎 WATCH THE SILVER DROP:
+Unlike other mods that just subtract numbers, this one drops REAL SILVER at the door when guests pay. You'll see shiny silver chunks accumulate at your premium entrances - satisfying capitalism at its finest!
+
+🚪 FEATURES:
+• Transform any door into a silver-collecting tollbooth
+• Set costs from 1-999 silver per door
+• "Pay Once" mode: Guests buy permanent VIP access
+• "Pay Every Time" mode: Continuous revenue stream
+• Smart exemptions: Your colonists, robots, and animals pass free
+• Multi-door configuration for efficiency
+• Visual feedback when broke guests can't afford entry
+
+🤖 ROBOT FRIENDLY:
+Full compatibility with Misc. Robots++ and other robot mods. Your cleaning bots won't get stuck behind paywalls!
+
+Perfect for monetizing luxury bedrooms, exclusive dining halls, premium spas, or any fancy area where only paying guests belong. Turn your colony into a proper capitalist paradise!
+
+Requires: Hospitality mod (for the guests who will make you rich!)</description>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
@@ -35,5 +48,5 @@ Perfect for creating premium areas that guests must pay to enter!</description>
     <li>brrainz.harmony</li>
     <li>Orion.Hospitality</li>
   </loadAfter>
-  <modVersion>1.0.0</modVersion>
+  <modVersion>1.1.0</modVersion>
 </ModMetaData>

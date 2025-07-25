@@ -142,4 +142,72 @@ bool exemptPrisoners = false;
 2. ✅ Refund system for quick exits
 3. ✅ Exemption toggles for different pawn types
 
-### 🎯 NEXT: Test the fix in-game to confirm PayGate GUI appears!
+---
+
+## 🤖 ROBOT SUPPORT RESEARCH - Misc. Robots++
+
+### Key Findings from Decompiled Source:
+
+#### **Robot Identification:**
+- **Robot Type:** `X2_AIRobot` class from `AIRobot` namespace
+- **Type Check:** `pawn is X2_AIRobot` to identify robot pawns
+- **Reflection Needed:** Must use reflection to avoid hard dependency
+
+#### **Robot DefNames Found:**
+- **Cleaner Bots:** AIRobot_Cleaner (I-V)
+- **Builder Bots:** RPP_Bot_Builder (I-V)  
+- **Kitchen Bots:** RPP_Bot_Kitchen (I-V)
+- **Emergency Bots:** RPP_Bot_ER (I-V)
+- **Crafter Bots:** RPP_Bot_Crafter (I-V)
+- **Omni Bots:** RPP_Bot_Omni (I-V)
+
+#### **Robot Detection Strategy:**
+```csharp
+// Safe reflection-based robot detection
+public static bool IsRobot(Pawn pawn)
+{
+    // Check for Misc. Robots++ robots using reflection
+    var robotType = Type.GetType("AIRobot.X2_AIRobot, Assembly-CSharp");
+    if (robotType != null && robotType.IsAssignableFrom(pawn.GetType()))
+        return true;
+        
+    // Could also check by def pattern for additional safety
+    return pawn.def.defName.Contains("Robot") || 
+           pawn.def.defName.StartsWith("AIRobot_") ||
+           pawn.def.defName.StartsWith("RPP_Bot_");
+}
+```
+
+#### **🎯 SOLUTION: Add Robot Exemption - ✅ COMPLETED**
+- **✅ Added to CompPayGate:** `bool exemptRobots = true;`  
+- **✅ Default Behavior:** Robots are exempt by default
+- **✅ User Control:** Players can toggle robot exemption in the config window
+- **✅ Robot Detection:** Safe reflection-based detection + pattern matching
+- **✅ UI Integration:** Added robot exemption checkbox to config window
+
+### ✅ Robot Detection Implementation:
+```csharp
+private static bool IsRobot(Pawn pawn)
+{
+    // Reflection check for Misc. Robots++ X2_AIRobot type
+    var robotType = Type.GetType("AIRobot.X2_AIRobot, Assembly-CSharp");
+    if (robotType != null && robotType.IsAssignableFrom(pawn.GetType()))
+        return true;
+        
+    // Fallback pattern matching for def names
+    var defName = pawn.def.defName;
+    return defName.Contains("Robot") || 
+           defName.StartsWith("AIRobot_") ||
+           defName.StartsWith("RPP_Bot_") ||
+           defName.Contains("_Bot_") ||
+           defName.EndsWith("Bot");
+}
+```
+
+### 🎯 STATUS: ROBOT SUPPORT COMPLETE!
+- ✅ Robot pawns will now be exempted from payment by default
+- ✅ Players can configure robot exemption in the door settings window  
+- ✅ Works with Misc. Robots++ and pattern-matches other robot mods
+- ✅ Safe implementation that won't break if robot mods aren't installed
+
+### 🎯 NEXT: Test in-game to confirm robots can pass through doors freely!

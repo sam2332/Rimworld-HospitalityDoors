@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
@@ -20,6 +21,7 @@ namespace HospitalityDoors
         private bool exemptColonists = true;
         private bool exemptAllies = true;
         private bool exemptPrisoners = false;
+        private bool exemptRobots = true;
         
         public CompProperties_PayGate Props => (CompProperties_PayGate)props;
         
@@ -58,6 +60,12 @@ namespace HospitalityDoors
             set => exemptPrisoners = value;
         }
         
+        public bool ExemptRobots
+        {
+            get => exemptRobots;
+            set => exemptRobots = value;
+        }
+        
         public int LifetimeEarnings => lifetimeEarnings;
         
         public bool IsEnabled => entryCost > 0;
@@ -79,6 +87,7 @@ namespace HospitalityDoors
                     exemptColonists = Props.defaultExemptColonists;
                     exemptAllies = Props.defaultExemptAllies;
                     exemptPrisoners = Props.defaultExemptPrisoners;
+                    exemptRobots = Props.defaultExemptRobots;
                     
                     Log.Message($"[HospitalityDoors] Initialized with cost: {entryCost}, enabled: {IsEnabled}");
                 }
@@ -97,6 +106,7 @@ namespace HospitalityDoors
             Scribe_Values.Look(ref exemptColonists, "exemptColonists", true);
             Scribe_Values.Look(ref exemptAllies, "exemptAllies", true);
             Scribe_Values.Look(ref exemptPrisoners, "exemptPrisoners", false);
+            Scribe_Values.Look(ref exemptRobots, "exemptRobots", true);
             Scribe_Values.Look(ref lifetimeEarnings, "lifetimeEarnings", 0);
             Scribe_Collections.Look(ref paidPawns, "paidPawns", LookMode.Reference);
             
@@ -106,6 +116,35 @@ namespace HospitalityDoors
                 // Clean up any null references
                 paidPawns.RemoveWhere(p => p == null || p.Dead || !p.Spawned);
             }
+        }
+        
+        /// <summary>
+        /// Checks if a pawn is a robot using reflection to avoid hard dependencies
+        /// </summary>
+        private static bool IsRobot(Pawn pawn)
+        {
+            if (pawn?.def?.defName == null) return false;
+            
+            // Check for Misc. Robots++ robots using reflection
+            try
+            {
+                var robotType = Type.GetType("AIRobot.X2_AIRobot, Assembly-CSharp");
+                if (robotType != null && robotType.IsAssignableFrom(pawn.GetType()))
+                    return true;
+            }
+            catch (Exception ex)
+            {
+                // Silently ignore reflection errors - mod probably not installed
+                Log.WarningOnce($"[HospitalityDoors] Robot type check failed: {ex.Message}", pawn.def.defName.GetHashCode());
+            }
+            
+            // Fallback: Check by def pattern for additional safety
+            var defName = pawn.def.defName;
+            return defName.Contains("Robot") || 
+                   defName.StartsWith("AIRobot_") ||
+                   defName.StartsWith("RPP_Bot_") ||
+                   defName.Contains("_Bot_") ||
+                   defName.EndsWith("Bot");
         }
         
         /// <summary>
@@ -129,6 +168,9 @@ namespace HospitalityDoors
             
             // Always exempt animals (they don't carry silver anyway)
             if (pawn.RaceProps.Animal) return true;
+            
+            // Exempt robots if enabled (default)
+            if (exemptRobots && IsRobot(pawn)) return true;
             
             return false;
         }
@@ -156,9 +198,7 @@ namespace HospitalityDoors
             
             // If pay-once mode, check if they've already paid
             return !paidPawns.Contains(pawn);
-        }
-        
-        /// <summary>
+        }        /// <summary>
         /// Attempts to charge the pawn for entry
         /// </summary>
         public bool TryChargeEntry(Pawn pawn)
@@ -184,10 +224,55 @@ namespace HospitalityDoors
             if (!payPerEntry)
                 paidPawns.Add(pawn);
             
+            // Drop payment as silver at the door location
+            DropSilverAtDoor(entryCost);
+
             // Show payment confirmation
             MoteMaker.ThrowText(pawn.Position.ToVector3(), pawn.Map, $"Paid {((float)entryCost).ToStringMoney()}", Color.green, 3.5f);
             
             return true;
+        }
+        
+        /// <summary>
+        /// Drops the collected silver payment at the door location
+        /// </summary>
+        private void DropSilverAtDoor(int amount)
+        {
+            if (amount <= 0) return;
+            
+            var silverThing = ThingMaker.MakeThing(ThingDefOf.Silver);
+            silverThing.stackCount = amount;
+            
+            // Try to drop the silver at the door's position
+            IntVec3 dropPosition = parent.Position;
+            
+            // If the door position is blocked, find a nearby free spot
+            if (!dropPosition.Standable(parent.Map))
+            {
+                // Look for adjacent cells that are standable
+                var adjacentCells = GenAdj.CellsAdjacent8Way(parent.Position, parent.Rotation, parent.def.size);
+                foreach (var cell in adjacentCells)
+                {
+                    if (cell.InBounds(parent.Map) && cell.Standable(parent.Map))
+                    {
+                        dropPosition = cell;
+                        break;
+                    }
+                }
+                
+                // If no adjacent cells work, try a wider search
+                if (!dropPosition.Standable(parent.Map))
+                {
+                    if (!CellFinder.TryFindRandomCellNear(parent.Position, parent.Map, 3, (IntVec3 c) => c.Standable(parent.Map), out dropPosition))
+                    {
+                        // Fallback: just use the door position even if blocked
+                        dropPosition = parent.Position;
+                    }
+                }
+            }
+            
+            // Drop the silver
+            GenPlace.TryPlaceThing(silverThing, dropPosition, parent.Map, ThingPlaceMode.Near);
         }
         
         /// <summary>
@@ -217,11 +302,13 @@ namespace HospitalityDoors
             
             if (!payPerEntry && paidPawns.Count > 0)
                 parts.Add($"Paid guests: {paidPawns.Count}");
+                parts.Add($"Lifetime earnings: {((float)lifetimeEarnings).ToStringMoney()}");
                 
             var exemptions = new List<string>();
             if (exemptColonists) exemptions.Add("colonists");
             if (exemptAllies) exemptions.Add("allies");
             if (exemptPrisoners) exemptions.Add("prisoners");
+            if (exemptRobots) exemptions.Add("robots");
             exemptions.Add("animals"); // Always exempt
             
             if (exemptions.Count > 0)

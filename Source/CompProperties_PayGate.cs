@@ -9,6 +9,7 @@ namespace HospitalityDoors
         public bool defaultExemptColonists = true;
         public bool defaultExemptAllies = true;
         public bool defaultExemptPrisoners = false;
+        public bool defaultExemptRobots = true;
         
         public CompProperties_PayGate()
         {

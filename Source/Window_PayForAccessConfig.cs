@@ -274,6 +274,23 @@ namespace HospitalityDoors
                 }
             }
             
+            var exemptRobots = comps.FirstOrDefault()?.ExemptRobots ?? true;
+            var mixedRobots = !comps.All(c => c.ExemptRobots == exemptRobots);
+            
+            var robotsRect = listing.GetRect(24f);
+            var robotsChecked = exemptRobots && !mixedRobots;
+            Widgets.CheckboxLabeled(robotsRect, 
+                "Exempt Robots" + (mixedRobots ? " (Mixed)" : ""), 
+                ref robotsChecked);
+            
+            if (robotsChecked != (exemptRobots && !mixedRobots))
+            {
+                foreach (var comp in comps)
+                {
+                    comp.ExemptRobots = robotsChecked;
+                }
+            }
+            
             // Always show animals as exempt (can't be changed)
             var animalRect = listing.GetRect(24f);
             var animalChecked = true;
@@ -311,6 +328,7 @@ namespace HospitalityDoors
                     comp.ExemptColonists = true;
                     comp.ExemptAllies = true;
                     comp.ExemptPrisoners = false;
+                    comp.ExemptRobots = true;
                     comp.ClearPaidPawns();
                 }
                 costText = CompPayGate.DefaultCost.ToString();
