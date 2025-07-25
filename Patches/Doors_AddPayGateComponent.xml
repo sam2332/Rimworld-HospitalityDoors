@@ -7,18 +7,28 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[@ParentName="DoorBase"]/comps</xpath>
         <value>
-          <li Class="HospitalityDoors.CompProperties_PayGate" />
+          <li Class="HospitalityDoors.CompProperties_PayGate">
+            <defaultCost>5</defaultCost>
+            <defaultPayPerEntry>false</defaultPayPerEntry>
+            <defaultExemptColonists>true</defaultExemptColonists>
+            <defaultExemptAllies>true</defaultExemptAllies>
+            <defaultExemptPrisoners>false</defaultExemptPrisoners>
+          </li>
         </value>
       </li>
-      
       <!-- Also target doors by thingClass for comprehensive coverage -->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps/li[@Class="HospitalityDoors.CompProperties_PayGate"])]/comps</xpath>
         <value>
-          <li Class="HospitalityDoors.CompProperties_PayGate" />
+          <li Class="HospitalityDoors.CompProperties_PayGate">
+            <defaultCost>5</defaultCost>
+            <defaultPayPerEntry>false</defaultPayPerEntry>
+            <defaultExemptColonists>true</defaultExemptColonists>
+            <defaultExemptAllies>true</defaultExemptAllies>
+            <defaultExemptPrisoners>false</defaultExemptPrisoners>
+          </li>
         </value>
       </li>
-      
       <!-- Handle doors that might not have comps section yet -->
       <li Class="PatchOperationConditional">
         <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps)]</xpath>
@@ -26,7 +36,13 @@
           <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps)]</xpath>
           <value>
             <comps>
-              <li Class="HospitalityDoors.CompProperties_PayGate" />
+              <li Class="HospitalityDoors.CompProperties_PayGate">
+                <defaultCost>5</defaultCost>
+                <defaultPayPerEntry>false</defaultPayPerEntry>
+                <defaultExemptColonists>true</defaultExemptColonists>
+                <defaultExemptAllies>true</defaultExemptAllies>
+                <defaultExemptPrisoners>false</defaultExemptPrisoners>
+              </li>
             </comps>
           </value>
         </match>

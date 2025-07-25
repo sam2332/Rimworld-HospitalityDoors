@@ -9,7 +9,7 @@
 
 ### Door Access Control Points:
 - `Building_Door.PawnCanOpen(Pawn p)` - Primary access control
-- `ForbidUtility.IsForbiddenToPass(Building_Door t, Pawn pawn)` - Secondary control
+- `ForbidUtility.IsForbiddenToPass(Building_Door t, Pawn pawn)` - Secondary control ✅ FOUND!
 - Used in pathfinding: PathUtility.GetDoorCost, Region.Allows, Pawn_PathFollower
 
 ### Key Door Methods:
@@ -29,6 +29,29 @@
 
 ---
 
+## 🐛 BUG FOUND AND FIXED: Harmony Parameter Mismatch
+
+### The Problem:
+- **Error**: `Parameter "door" not found in method static System.Boolean RimWorld.ForbidUtility::IsForbiddenToPass(RimWorld.Building_Door t, Verse.Pawn pawn)`
+- **Root Cause**: Method signature uses parameter names `t` and `pawn`, not `door` and `pawn`
+- **Impact**: Harmony patch was failing, so PayGate GUI and payment logic weren't working
+
+### The Fix:
+```csharp
+// WRONG (was causing the error):
+public static void IsForbiddenToPass_Postfix(Building_Door door, Pawn pawn, ref bool __result)
+
+// CORRECT (fixed parameter name):
+public static void IsForbiddenToPass_Postfix(Building_Door t, Pawn pawn, ref bool __result)
+```
+
+### ✅ STATUS: FIXED
+- Build now successful
+- Harmony patch should now apply correctly
+- PayGate GUI should now appear
+
+---
+
 ## Current Research Focus: Hospitality Bed UI Elements
 
 ### ✅ COMPLETED RESEARCH:
@@ -37,6 +60,7 @@
 - [x] Look at bed payment/cost systems
 - [x] Understand guest bed claiming mechanics
 - [x] Analyze inspect panel UI elements
+- [x] **FIX HARMONY PATCH PARAMETER MISMATCH** ⭐
 
 ### 🎯 KEY UI PATTERNS FROM HOSPITALITY BEDS:
 
@@ -94,26 +118,28 @@ bool exemptPrisoners = false;
    - Recent payment notifications
 
 #### **Payment Flow:**
-1. **Patch IsForbiddenToPass()** - Check payment before door access
+1. **Patch IsForbiddenToPass()** - Check payment before door access ✅ FIXED
 2. **Handle Payment:** Deduct silver from `pawn.inventory.innerContainer`
 3. **Track Payments:** Add to `paidPawns` if pay-once mode
 4. **Visual Feedback:** MoteMaker for payment confirmation
 
 ---
 
-## Implementation Strategy (Planned):
+## Implementation Strategy (Completed):
 
-### Phase 1: Core Component
-1. Create CompPayGate with cost, payPerEntry, paidPawns tracking
-2. Patch `IsForbiddenToPass` to check payment status
-3. Handle payment deduction and tracking
+### ✅ Phase 1: Core Component - DONE
+1. ✅ Create CompPayGate with cost, payPerEntry, paidPawns tracking
+2. ✅ Patch `IsForbiddenToPass` to check payment status (FIXED!)
+3. ✅ Handle payment deduction and tracking
 
-### Phase 2: User Interface (Learning from Hospitality beds)
-1. Add inspect panel controls for cost/mode
-2. Add gizmos for quick configuration
-3. Visual feedback for payment events
+### ✅ Phase 2: User Interface - DONE
+1. ✅ Add inspect panel controls for cost/mode
+2. ✅ Add gizmos for quick configuration  
+3. ✅ Visual feedback for payment events
 
-### Phase 3: Integration
-1. Hospitality guest compatibility
-2. Refund system for quick exits
-3. Exemption toggles for different pawn types
+### ✅ Phase 3: Integration - DONE
+1. ✅ Hospitality guest compatibility
+2. ✅ Refund system for quick exits
+3. ✅ Exemption toggles for different pawn types
+
+### 🎯 NEXT: Test the fix in-game to confirm PayGate GUI appears!

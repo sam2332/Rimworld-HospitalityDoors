@@ -62,6 +62,10 @@ namespace HospitalityDoors
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
+            
+            // Debug logging to confirm component is loaded
+            Log.Message($"[HospitalityDoors] CompPayGate loaded on {parent.def.defName} - Respawning: {respawningAfterLoad}");
+            
             if (!respawningAfterLoad)
             {
                 // Initialize with default values from Props if available
@@ -72,6 +76,12 @@ namespace HospitalityDoors
                     exemptColonists = Props.defaultExemptColonists;
                     exemptAllies = Props.defaultExemptAllies;
                     exemptPrisoners = Props.defaultExemptPrisoners;
+                    
+                    Log.Message($"[HospitalityDoors] Initialized with cost: {entryCost}, enabled: {IsEnabled}");
+                }
+                else
+                {
+                    Log.Warning("[HospitalityDoors] Props is null during initialization!");
                 }
             }
         }

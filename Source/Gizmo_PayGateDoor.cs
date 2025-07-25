@@ -14,6 +14,8 @@ namespace HospitalityDoors
         
         public Gizmo_PayGateDoor(Building_Door[] doors) : base(doors)
         {
+            Log.Message($"[HospitalityDoors] Creating gizmo for {doors.Length} doors");
+            
             var payGates = doors.Select(d => d.GetComp<CompPayGate>()).Where(c => c != null).ToArray();
             
             if (doors.Length == 1 && payGates.Length == 1)
@@ -79,27 +81,47 @@ namespace HospitalityDoors
             var comp = selection[0].GetComp<CompPayGate>();
             if (comp == null) return;
             
-            // Create detailed tooltip
+            // Create detailed tooltip with safe access to comp data
+            var door = selection[0];
             TooltipHandler.TipRegion(totalRect, () =>
             {
+                // Safely get the component again inside the lambda to avoid null reference issues
+                var safeComp = door?.GetComp<CompPayGate>();
+                if (safeComp == null) return "Pay-to-Access Door (Error loading data)";
+                
                 var tip = "Pay-to-Access Door Settings\n\n";
-                tip += $"Entry Cost: {((float)comp.EntryCost).ToStringMoney()}\n";
-                tip += $"Payment Mode: {(comp.PayPerEntry ? "Pay every time" : "Pay once per guest")}\n\n";
+                tip += $"Entry Cost: {((float)safeComp.EntryCost).ToStringMoney()}\n";
+                tip += $"Payment Mode: {(safeComp.PayPerEntry ? "Pay every time" : "Pay once per guest")}\n\n";
                 
                 tip += "Exemptions:\n";
-                if (comp.ExemptColonists) tip += "• Colonists\n";
-                if (comp.ExemptAllies) tip += "• Allied pawns\n";
-                if (comp.ExemptPrisoners) tip += "• Prisoners\n";
+                if (safeComp.ExemptColonists) tip += "• Colonists\n";
+                if (safeComp.ExemptAllies) tip += "• Allied pawns\n";
+                if (safeComp.ExemptPrisoners) tip += "• Prisoners\n";
                 tip += "• Animals (always exempt)\n";
                 
-                if (!comp.PayPerEntry && comp.CompInspectStringExtra().Contains("Paid guests:"))
+                try
                 {
-                    tip += $"\n{comp.CompInspectStringExtra().Split('\n').FirstOrDefault(s => s.Contains("Paid guests:"))}";
+                    if (!safeComp.PayPerEntry)
+                    {
+                        var inspectString = safeComp.CompInspectStringExtra();
+                        if (!string.IsNullOrEmpty(inspectString) && inspectString.Contains("Paid guests:"))
+                        {
+                            var paidLine = inspectString.Split('\n').FirstOrDefault(s => s.Contains("Paid guests:"));
+                            if (!string.IsNullOrEmpty(paidLine))
+                            {
+                                tip += $"\n{paidLine}";
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    // Ignore any errors when trying to get inspect string
                 }
                 
-                tip += "\n\nLeft-click buttons to adjust cost\nRight-click for advanced options";
+                tip += "\n\nLeft-click buttons to adjust cost\nShift+Left-click or Middle-click to toggle mode\nRight-click for advanced options";
                 return tip;
-            }, selection[0].GetHashCode() * 7829);
+            }, door.GetHashCode() * 7829);
         }
         
         public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
@@ -112,9 +134,34 @@ namespace HospitalityDoors
             {
                 ShowAdvancedOptions();
                 Event.current.Use();
+                return new GizmoResult(GizmoState.Interacted);
+            }
+            
+            // Also handle middle-click or shift+left-click to toggle payment mode quickly
+            if (Mouse.IsOver(rect) && Event.current.type == EventType.MouseDown && 
+                (Event.current.button == 2 || (Event.current.button == 0 && Event.current.shift)))
+            {
+                TogglePaymentMode();
+                Event.current.Use();
+                return new GizmoResult(GizmoState.Interacted);
             }
             
             return result;
+        }
+        
+        private void TogglePaymentMode()
+        {
+            foreach (var door in selection)
+            {
+                var comp = door.GetComp<CompPayGate>();
+                if (comp != null)
+                {
+                    comp.PayPerEntry = !comp.PayPerEntry;
+                }
+            }
+            
+            var newMode = selection.FirstOrDefault()?.GetComp<CompPayGate>()?.PayPerEntry ?? false;
+            Messages.Message($"Payment mode set to: {(newMode ? "Pay every time" : "Pay once")}", MessageTypeDefOf.NeutralEvent);
         }
         
         private void ShowAdvancedOptions()

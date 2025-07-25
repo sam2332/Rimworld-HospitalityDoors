@@ -12,12 +12,12 @@ namespace HospitalityDoors
         // Patch IsForbiddenToPass to check for payment requirements
         [HarmonyPatch(typeof(ForbidUtility), nameof(ForbidUtility.IsForbiddenToPass))]
         [HarmonyPostfix]
-        public static void IsForbiddenToPass_Postfix(Building_Door door, Pawn pawn, ref bool __result)
+        public static void IsForbiddenToPass_Postfix(Building_Door t, Pawn pawn, ref bool __result)
         {
             // If already forbidden by base game logic, don't override
             if (__result) return;
             
-            var comp = door?.GetComp<CompPayGate>();
+            var comp = t?.GetComp<CompPayGate>();
             if (comp == null || !comp.IsEnabled) return;
             
             // Check if this pawn needs to pay and can't afford it
@@ -46,28 +46,31 @@ namespace HospitalityDoors
             return true;
         }
         
-        // Add our gizmo to doors that have the PayGate component
+        // Add our gizmos to doors that have the PayGate component
         [HarmonyPatch(nameof(Building_Door.GetGizmos))]
         [HarmonyPostfix]
         public static void GetGizmos_Postfix(Building_Door __instance, ref System.Collections.Generic.IEnumerable<Gizmo> __result)
         {
-            var comp = __instance.GetComp<CompPayGate>();
-            if (comp == null) return;
-            
-            var gizmos = __result.ToList();
-            
-            // Get all selected doors with PayGate components
-            var selectedDoors = Find.Selector.SelectedObjects
-                .OfType<Building_Door>()
-                .Where(d => d.GetComp<CompPayGate>() != null)
-                .ToArray();
-            
-            if (selectedDoors.Length > 0)
+            try
             {
+                var comp = __instance.GetComp<CompPayGate>();
+                if (comp == null) return;
+                
+                var gizmos = __result.ToList();
+                
+                // Add the payment mode toggle gizmo (shows prominently)
+                var selectedDoors = new[] { __instance };
+                gizmos.Add(new Gizmo_PayGateModeToggle(selectedDoors));
+                
+                // Add the cost adjustment gizmo
                 gizmos.Add(new Gizmo_PayGateDoor(selectedDoors));
+                
+                __result = gizmos;
             }
-            
-            __result = gizmos;
+            catch (System.Exception ex)
+            {
+                Log.Error($"[HospitalityDoors] Error in GetGizmos_Postfix: {ex}");
+            }
         }
     }
 }
