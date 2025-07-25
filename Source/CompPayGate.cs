@@ -14,8 +14,12 @@ namespace HospitalityDoors
         
         private int entryCost = DefaultCost;
         private bool payPerEntry = false;
-        private HashSet<Pawn> paidPawns = new HashSet<Pawn>();
-        private int lifetimeEarnings = 0;
+    // Use a List for Scribe compatibility, reconstruct HashSet at runtime
+    private List<Pawn> paidPawnsList = new List<Pawn>();
+    private HashSet<Pawn> paidPawns = new HashSet<Pawn>();
+    private int lifetimeEarnings = 0;
+    // Track pawns with a one-time pass (allowed to exit for free)
+    private List<Pawn> oneTimePassPawns = new List<Pawn>();
         
         // Exemption settings
         private bool exemptColonists = true;
@@ -98,7 +102,8 @@ namespace HospitalityDoors
             }
         }
         
-        public override void PostExposeData()
+        private bool paidPawnsLoaded = false;
+    public override void PostExposeData()
         {
             base.PostExposeData();
             Scribe_Values.Look(ref entryCost, "entryCost", DefaultCost);
@@ -108,13 +113,35 @@ namespace HospitalityDoors
             Scribe_Values.Look(ref exemptPrisoners, "exemptPrisoners", false);
             Scribe_Values.Look(ref exemptRobots, "exemptRobots", true);
             Scribe_Values.Look(ref lifetimeEarnings, "lifetimeEarnings", 0);
-            Scribe_Collections.Look(ref paidPawns, "paidPawns", LookMode.Reference);
-            
+            Scribe_Collections.Look(ref oneTimePassPawns, "oneTimePassPawns", LookMode.Reference);
+
+            // Ensure oneTimePassPawns is always initialized
+            if (oneTimePassPawns == null)
+                oneTimePassPawns = new List<Pawn>();
+
+            // Vanilla-style: Only scribe paidPawnsList if node is entered
+            if (Scribe.EnterNode("paidPawns"))
+            {
+                try
+                {
+                    Scribe_Collections.Look(ref paidPawnsList, "li", LookMode.Reference);
+                }
+                finally
+                {
+                    Scribe.ExitNode();
+                }
+            }
+
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                paidPawns ??= new HashSet<Pawn>();
+                paidPawns = new HashSet<Pawn>(paidPawnsList ?? new List<Pawn>());
                 // Clean up any null references
                 paidPawns.RemoveWhere(p => p == null || p.Dead || !p.Spawned);
+            }
+            else if (Scribe.mode == LoadSaveMode.Saving)
+            {
+                // Sync list from hashset before saving
+                paidPawnsList = paidPawns.ToList();
             }
         }
         
@@ -228,44 +255,55 @@ namespace HospitalityDoors
         {
             if (!IsEnabled) return false;
             if (IsExempt(pawn)) return false;
-            
+
+            // If pawn has a one-time pass, allow free exit and remove from list
+            if (oneTimePassPawns.Contains(pawn))
+            {
+                oneTimePassPawns.Remove(pawn);
+                return false;
+            }
+
             // If pay-per-entry mode, always need to pay
             if (payPerEntry) return true;
-            
+
             // If pay-once mode, check if they've already paid
             return !paidPawns.Contains(pawn);
-        }        /// <summary>
+        }
         /// Attempts to charge the pawn for entry
         /// </summary>
         public bool TryChargeEntry(Pawn pawn)
         {
             if (!NeedsToPayFor(pawn)) return true;
-            
+
             if (!CanAfford(pawn, out Thing silver))
             {
                 // Show "can't afford" message
                 MoteMaker.ThrowText(pawn.Position.ToVector3(), pawn.Map, "Can't afford entry", Color.red, 3.5f);
                 return false;
             }
-            
+
             // Deduct payment
             silver.stackCount -= entryCost;
             if (silver.stackCount <= 0)
                 silver.Destroy();
-            
+
             // Track lifetime earnings
             lifetimeEarnings += entryCost;
-            
+
             // Track payment for pay-once mode
             if (!payPerEntry)
                 paidPawns.Add(pawn);
-            
+
+            // Give pawn a one-time pass to exit for free
+            if (!oneTimePassPawns.Contains(pawn))
+                oneTimePassPawns.Add(pawn);
+
             // Drop payment as silver at the door location
             DropSilverAtDoor(entryCost);
 
             // Show payment confirmation
             MoteMaker.ThrowText(pawn.Position.ToVector3(), pawn.Map, $"Paid {((float)entryCost).ToStringMoney()}", Color.green, 3.5f);
-            
+
             return true;
         }
         
@@ -317,6 +355,8 @@ namespace HospitalityDoors
         public void ClearPaidPawns()
         {
             paidPawns.Clear();
+            paidPawnsList.Clear();
+            oneTimePassPawns.Clear();
         }
         
         /// <summary>
