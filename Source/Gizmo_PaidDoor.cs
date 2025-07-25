@@ -11,9 +11,9 @@ namespace HospitalityDoors
         public Gizmo_PaidDoor(Building_Door[] doors)
         {
             this.doors = doors;
-            this.defaultLabel = "Paid Door?";
+            this.defaultLabel = "Paid Door";
             this.defaultDesc = "Configure pay-for-access settings for this door.\n\nClick to open configuration window.";
-            this.icon = ContentFinder<Texture2D>.Get("UI/Commands/PaidDoor", false) ?? TexCommand.Install;
+            this.icon = ContentFinder<Texture2D>.Get("UI/Commands/door_icon_brown", false) ?? TexCommand.Install;
             this.Order = -90f;
         }
 
