@@ -408,7 +408,7 @@ namespace HospitalityDoors
             if (exemptAllies) exemptions.Add("allies");
             if (exemptPrisoners) exemptions.Add("prisoners");
             if (exemptRobots) exemptions.Add("robots");
-            exemptions.Add("animals"); // Always exempt
+            if (exemptAnimals) exemptions.Add("animals");
             exemptions.Add("visitors leaving map"); // Fire escape protocol
             
             if (exemptions.Count > 0)
