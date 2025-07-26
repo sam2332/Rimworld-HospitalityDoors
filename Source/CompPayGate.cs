@@ -9,7 +9,7 @@ namespace HospitalityDoors
 {
     public class CompPayGate : ThingComp
     {
-        public const int DefaultCost = 5;
+        public const int DefaultCost = 0;
         public const int CostStep = 5;
         
         private int entryCost = DefaultCost;
@@ -19,6 +19,10 @@ namespace HospitalityDoors
         private int lifetimeEarnings = 0;
         // Track pawns with a one-time pass (allowed to exit for free)
         private List<Pawn> oneTimePassPawns = new List<Pawn>();
+        
+        // String lists for serialization (to avoid pawn reference issues)
+        private List<string> paidPawnsIds = new List<string>();
+        private List<string> oneTimePassPawnsIds = new List<string>();
         
         // Exemption settings
         private bool exemptColonists = true;
@@ -113,22 +117,53 @@ namespace HospitalityDoors
             Scribe_Values.Look(ref exemptRobots, "exemptRobots", true);
             Scribe_Values.Look(ref lifetimeEarnings, "lifetimeEarnings", 0);
             
-            // Use unique identifiers based on parent to avoid conflicts
-            var paidPawnsKey = $"paidPawnsList_{parent?.thingIDNumber ?? 0}";
-            var oneTimePassKey = $"oneTimePassPawns_{parent?.thingIDNumber ?? 0}";
+            // Serialize pawn IDs as strings to avoid reference issues
+            if (Scribe.mode == LoadSaveMode.Saving)
+            {
+                // Convert pawn lists to ID lists before saving
+                paidPawnsIds = paidPawnsList?.Where(p => p != null).Select(p => p.ThingID).ToList() ?? new List<string>();
+                oneTimePassPawnsIds = oneTimePassPawns?.Where(p => p != null).Select(p => p.ThingID).ToList() ?? new List<string>();
+            }
             
-            Scribe_Collections.Look(ref paidPawnsList, paidPawnsKey, LookMode.Reference);
-            Scribe_Collections.Look(ref oneTimePassPawns, oneTimePassKey, LookMode.Reference);
+            Scribe_Collections.Look(ref paidPawnsIds, "paidPawnsIds", LookMode.Value);
+            Scribe_Collections.Look(ref oneTimePassPawnsIds, "oneTimePassPawnsIds", LookMode.Value);
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                // Initialize lists if they're null after loading
-                paidPawnsList = paidPawnsList ?? new List<Pawn>();
-                oneTimePassPawns = oneTimePassPawns ?? new List<Pawn>();
+                // Initialize ID lists if they're null after loading
+                paidPawnsIds = paidPawnsIds ?? new List<string>();
+                oneTimePassPawnsIds = oneTimePassPawnsIds ?? new List<string>();
                 
-                // Clean up null references and dead/despawned pawns
-                paidPawnsList.RemoveAll(p => p == null || p.Dead || !p.Spawned);
-                oneTimePassPawns.RemoveAll(p => p == null || p.Dead || !p.Spawned);
+                // Convert ID lists back to pawn lists
+                paidPawnsList = new List<Pawn>();
+                oneTimePassPawns = new List<Pawn>();
+                
+                // Find pawns by their IDs
+                foreach (var id in paidPawnsIds)
+                {
+                    var pawn = Find.World.worldPawns.AllPawnsAlive.FirstOrDefault(p => p.ThingID == id);
+                    if (pawn == null && Current.Game?.CurrentMap != null)
+                    {
+                        pawn = Current.Game.CurrentMap.mapPawns.AllPawns.FirstOrDefault(p => p.ThingID == id);
+                    }
+                    if (pawn != null)
+                    {
+                        paidPawnsList.Add(pawn);
+                    }
+                }
+                
+                foreach (var id in oneTimePassPawnsIds)
+                {
+                    var pawn = Find.World.worldPawns.AllPawnsAlive.FirstOrDefault(p => p.ThingID == id);
+                    if (pawn == null && Current.Game?.CurrentMap != null)
+                    {
+                        pawn = Current.Game.CurrentMap.mapPawns.AllPawns.FirstOrDefault(p => p.ThingID == id);
+                    }
+                    if (pawn != null)
+                    {
+                        oneTimePassPawns.Add(pawn);
+                    }
+                }
             }
         }
         
