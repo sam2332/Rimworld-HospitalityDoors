@@ -95,7 +95,7 @@ namespace HospitalityDoors
                 {
                     if (currentlyEnabled && comp.EntryCost == 0)
                     {
-                        comp.EntryCost = CompPayGate.DefaultCost; // Set default cost if enabling for the first time
+                        comp.EntryCost = 5; // Set reasonable default cost when enabling (since DefaultCost is 0 for disabled-by-default)
                     }
                     else if (!currentlyEnabled)
                     {
@@ -325,7 +325,7 @@ namespace HospitalityDoors
             {
                 foreach (var comp in comps)
                 {
-                    comp.EntryCost = CompPayGate.DefaultCost;
+                    comp.EntryCost = CompPayGate.DefaultCost == 0 ? 5 : CompPayGate.DefaultCost; // Use 5 if DefaultCost is 0 (disabled by default)
                     comp.PayPerEntry = false;
                     comp.ExemptColonists = true;
                     comp.ExemptAllies = true;
@@ -333,7 +333,7 @@ namespace HospitalityDoors
                     comp.ExemptRobots = true;
                     comp.ClearPaidPawns();
                 }
-                costText = CompPayGate.DefaultCost.ToString();
+                costText = (CompPayGate.DefaultCost == 0 ? 5 : CompPayGate.DefaultCost).ToString();
                 Messages.Message("Reset all settings to defaults.", MessageTypeDefOf.NeutralEvent);
             }
             

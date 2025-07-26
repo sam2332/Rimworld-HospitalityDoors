@@ -14,7 +14,7 @@ namespace HospitalityDoors
             this.defaultLabel = "Paid Door";
             this.defaultDesc = "Configure pay-for-access settings for this door.\n\nClick to open configuration window.";
             this.icon = ContentFinder<Texture2D>.Get("UI/Commands/door_icon", false) ?? TexCommand.Install;
-            this.Order = -90f;
+            this.Order = 90f;
         }
 
         public override void ProcessInput(Event ev)

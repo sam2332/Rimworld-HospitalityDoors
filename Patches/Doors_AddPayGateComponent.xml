@@ -8,7 +8,7 @@
         <xpath>/Defs/ThingDef[@ParentName="DoorBase"]/comps</xpath>
         <value>
           <li Class="HospitalityDoors.CompProperties_PayGate">
-            <defaultCost>5</defaultCost>
+            <defaultCost>0</defaultCost>
             <defaultPayPerEntry>false</defaultPayPerEntry>
             <defaultExemptColonists>true</defaultExemptColonists>
             <defaultExemptAllies>true</defaultExemptAllies>
@@ -21,7 +21,7 @@
         <xpath>/Defs/ThingDef[thingClass="Building_Door" and not(comps/li[@Class="HospitalityDoors.CompProperties_PayGate"])]/comps</xpath>
         <value>
           <li Class="HospitalityDoors.CompProperties_PayGate">
-            <defaultCost>5</defaultCost>
+            <defaultCost>0</defaultCost>
             <defaultPayPerEntry>false</defaultPayPerEntry>
             <defaultExemptColonists>true</defaultExemptColonists>
             <defaultExemptAllies>true</defaultExemptAllies>
@@ -37,7 +37,7 @@
           <value>
             <comps>
               <li Class="HospitalityDoors.CompProperties_PayGate">
-                <defaultCost>5</defaultCost>
+                <defaultCost>0</defaultCost>
                 <defaultPayPerEntry>false</defaultPayPerEntry>
                 <defaultExemptColonists>true</defaultExemptColonists>
                 <defaultExemptAllies>true</defaultExemptAllies>
