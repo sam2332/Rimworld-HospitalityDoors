@@ -1,0 +1,1620 @@
+Loading game from file Dev Testing#§#est with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - adaptive.storage.framework
+  - vanillaexpanded.backgrounds
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - VanillaExpanded.VCEF
+  - VanillaExpanded.VCEFAddon
+  - FishEggs.ProgrammerLily.com
+  - juanlopez2008.LightsOut
+  - Haplo.Miscellaneous.Robots
+  - Supes.ParallelPowerGrid
+  - VanillaExpanded.VHE
+  - Better.Plants
+  - co.uk.epicguru.rimforgepoles
+  - horo.minisolars
+  - Mlie.WalkableSolarPanels
+  - m00nl1ght.MapPreview
+  - NanoCE.GlassLights
+  - imranfish.xmlextensions
+  - carnap2.TMaterials.Glass
+  - sbz.NeatStorageFridge
+  - Dubwise.DubsBadHygiene
+  - VanillaExpanded.VWENL
+  - Smxrez.nonlethalreexamined
+  - HopeSeekr.BetterRimworlds.TeleporterRoom
+  - Oblitus.MyLittlePlanet
+  - Tixiv.WhoShotMyLegOff
+  - nephlite.orbitaltradecolumn
+  - Mlie.SmarterDeconstructionAndMining
+  - Mlie.ExpandedRoofing
+  - m00nl1ght.WorldTechLevel
+  - Broms.ReloadMods
+  - co.uk.epicguru.ingamewiki
+  - co.uk.epicguru.rimforge
+  - Jaxe.RimHUD
+  - UnlimitedHugs.HugsLib
+  - PeteTimesSix.SimpleSidearms
+  - Jaxe.Bubbles
+  - azravos.factioncustomizer
+  - VanillaExpanded.VPsycastsE
+  - OskarPotocki.VFE.Medieval2
+  - Alaestor.MiscRobots.PlusPlus
+  - elf.miscrobots.worktab.support
+  - VanillaExpanded.VanillaSocialInteractionsExpanded
+  - Orion.Hospitality
+  - Orion.CashRegister
+  - Adamas.Storefront
+  - Adamas.VendingMachines
+  - VanillaExpanded.VFECore
+  - Adamas.HospitalityCasino
+  - Adamas.HospitalitySpa
+  - Nightmare.Core
+  - VanillaExpanded.VBrewE
+  - VanillaExpanded.VBrewECandT
+  - sarg.smartspeed
+  - Goat.Food.Texture.Variety.Core
+  - Goat.Food.Texture.Variety.Beer
+  - Goat.Food.Texture.Variety.Cannibal
+  - Goat.Food.Texture.Variety.Children
+  - Goat.Food.Texture.Variety.Chocolate
+  - VanillaExpanded.VCookE
+  - VanillaExpanded.VCookEStews
+  - VanillaExpanded.VCookESushi
+  - Goat.Food.Texture.Variety.Paste
+  - Goat.Food.Texture.Variety.Replacement
+  - VanillaExpanded.VanillaAnimalsExpanded
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VanillaBackstoriesExpanded
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VFEPower
+  - VanillaExpanded.VChemfuelE
+  - VanillaExpanded.VEE
+  - OskarPotocki.VFE.Classical
+  - VanillaExpanded.VWEL
+  - OskarPotocki.VFE.Pirates
+  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
+  - VanillaExpanded.VFEArchitect
+  - VanillaExpanded.VFEArt
+  - VanillaExpanded.VFEFarming
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VFEProduction
+  - VanillaExpanded.VIEHAR
+  - VanillaExpanded.VMemesE
+  - VanillaExpanded.VIESAS
+  - VanillaExpanded.VPlantsE
+  - VanillaExpanded.VPlantsEMore
+  - VanillaExpanded.VPlantsESucculents
+  - vanillaracesexpanded.customicons
+  - vanillaracesexpanded.fungoid
+  - vanillaracesexpanded.hussar
+  - vanillaracesexpanded.phytokin
+  - vanillaracesexpanded.sanguophage
+  - VanillaExpanded.VanillaTradingExpanded
+  - VanillaExpanded.VanillaTraitsExpanded
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWEMS
+  - wiggler310.medieval
+  - sbz.NeatStorage
+  - sarg.alphabooks
+  - ferny.bedroomcategory
+  - brrainz.cameraplus
+  - Mlie.SmarterVisitors
+  - smashphil.dropspot
+  - VanillaExpanded.VPlantsEMushrooms
+  - ferny.categoriesspots
+  - BDew.CremateAutoStrip
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsBreakMod
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPaintShop
+  - ferny.environmentcategory
+  - Mlie.IClearlyHaveEnough
+  - VanillaExpanded.Ideo.IconsandSymbols
+  - Mlie.IgnoreIdleGuests
+  - Mlie.JustPutItOverThere
+  - ferny.progressionhospitality
+  - VanillaExpanded.VFEPropsandDecor
+  - sarg.alphapropsparks
+  - ferny.lightingcategory
+  - ferny.moveyourmonolith
+  - ISOREX.PawnEditor
+  - Mlie.PrisonCommons
+  - Mlie.PrisonersShouldFearTurrets
+  - Dubwise.Rimefeller
+  - dhultgren.smarterconstruction
+  - ferny.ReplaceLib
+  - Wemd.SoilContrast
+  - moistestWhale.stuffOnTablesForked
+  - Mlie.TooManyAreas
+  - Mlie.TVIsEducational
+  - VanillaExpanded.Ideo.RelicsAndArtifacts
+  - VanillaExpanded.VNutrientE
+  - vanillaexpanded.skills
+  - Mlie.VariousSpaceShipChunk
+  - RedMattis.BetterConversion
+  - com.yayo.yayoAni.continued
+  - Sarg.AlphaMemes
+  - toastyman.moreritualseats
+  - Sirprook.GrievousWounds
+  - Linnun.KeepConverting
+  - RER.PrisonerExchange
+  - LokiVKlokeNaAndoke.AutoPriorities
+  - automatic.autolinks
+  - visiblewealth.1trickPwnyta
+  - Mlie.UseThisInstead
+  - Dubwise.DubsMintMenus
+  - BomTrain.MoreSilver
+  - Harmonea.WildSpawn
+  - arthurgc.randomvegetables
+  - ferny.alwaysstartindaytime
+  - Linnun.AutoCastSpecialistCommands
+  - ben.automaticnightowl
+  - Mlie.BadCanBeGood
+  - kaitorisenkou.BallGames
+  - Mlie.DingOnGameLoaded
+  - ferny.DragSorting
+  - zylle.MoreVanillaBiomes
+  - Scurvyez.FirefliesTwo
+  - rabiosus.ghoulcorpsefilter
+  - aRandomKiwi.HuntForMe
+  - SmashPhil.VehicleFramework
+  - Haecriver.InjuredCarry
+  - Krafs.LevelUp
+  - IssacZhuang.MuzzleFlash
+  - ferny.NameYourEntities
+  - Unon.NoBurnMetal
+  - Mlie.NoIngredientListLimit
+  - overheadMeal.patch
+  - biowreck.personaldoors
+  - telardo.PipetteTool
+  - longwater.smartstockpilecreation
+  - Wemd.RealisticDarknessLight
+  - aRandomKiwi.RimSaves
+  - Mazo.Schedules
+  - sicefe.senseofdepth
+  - Mlie.ShowModUpdates
+  - reiquard.tooltippedlongnames
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VAEAccessories
+  - VanillaExpanded.VanillaAspirationsExpanded
+  - VanillaExpanded.VGeneticsE
+  - VanillaExpanded.VPersonaWeaponsE
+  - VanillaExpanded.VPE.Hemosage
+  - VanillaExpanded.VPE.Puppeteer
+  - Chairheir.VPERunesmith
+  - VanillaExpanded.VWETB
+  - VanillaExpanded.VWE
+  - VanillaExpanded.VWEHW
+  - VanillaExpanded.VWEG
+  - VanillaExpanded.VWEQ
+  - VanillaExpanded.VWEFT
+  - VanillaExpanded.VWEBF
+  - kikohi.whatsforsale
+  - moistestWhale.CeilingTradeBeacon
+  - pklemming.daysplayed
+  - Pribovich.MemorialStele
+  - Viciousbunny.NoMetabolicEfficiency
+  - kongkim.PaintableSpotsObjects
+  - mayo.kindneanderthals
+  - buildfromstorage.programmerlily.com
+  - EdB.PrepareCarefully
+  - avilmask.CommonSense
+  - Goat.Food.Texture.Variety.VBrewE
+  - Goat.Food.Texture.Variety.VECoffeTea
+  - Goat.Food.Texture.Variety.VECooking
+  - Goat.Food.Texture.Variety.VEStew
+  - Goat.Food.Texture.Variety.VESushi
+  - kxp.IdeoSymbolsAsIdeograms
+  - m00nl1ght.GeologicalLandforms
+  - zylle.MapDesigner
+  - Buggy.RimWorld.LetterPermanentInjury
+  - tro.soundscape.enhanced
+  - Krelinos.SocialEXPFromTrade
+  - archie.turrettargetpatch
+  - irilis.ThickWallInsulates
+  - OskarPotocki.VanillaVehiclesExpanded
+  - FLASHPOINT55.HumanPowerGeneratorMod
+  - Dorely.EmergencySurgery
+  - DawnsGlow.Quarry
+  - quickbuildtool.programmerlily.com
+  - whatswrong.programmerlily.com
+  - UnlimitedHugs.AllowTool
+  - KeirLoire.LetMeDrink
+  - azravos.worldpresets
+  - Sylant.Silver
+  - Shinzy.Bridgello
+  - sarg.alphacrafts
+  - FrozenSnowFox.BetterExplorationLoot
+  - brrainz.achtung
+  - savestoragesettings.kv.rw.fishtmp
+  - sarg.alphaimplants
+  - sarg.alphapropsships
+  - sarg.alphaskills
+  - swablu.ambience
+  - Mlie.AnimalFeedTrough
+  - Oblitus.AnimalsLogic
+  - Mehni.PickUpAndHaul
+  - Snues.AutoArm
+  - Defi.AutoCutBlight
+  - bedrestforfoodpoisoning.1trickPonyta
+  - Mlie.BetterBeggars
+  - nephlite.advexplosions
+  - Fuu.BloodAnimations
+  - zylle.ChildrensDrawings
+  - MD.ChillOut
+  - Mlie.CleaningPriority
+  - CrashM.ColorCodedMoodBar.11
+  - kikohi.ColoredDeepResources
+  - Defi.DefensivePositions
+  - klvlt.drugstoragecategories
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - Mlie.HarvestWhenButchering
+  - AmCh.ImprovedNeedIndicator
+  - sirrandoo.mpe
+  - Andromeda.PackableContainers
+  - Mlie.PerspectiveBuildings
+  - Mlie.PerspectiveEaves
+  - erdelf.PrisonerRansom
+  - rabiosus.reduceSkipdoorDistortionEffect
+  - Reel.TurretPipeline
+  - avilmask.ResearchWhatever
+  - roolo.RunAndGun.kotobike
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - neceros.DWs.simpleturrets
+  - Aelanna.TransparentSubstructure
+  - Ushanka.GlittertechExpansion
+  - PureMJ.MjRimMods.VanillaFixHaulAfterSlaughter
+  - tk421storm.WastepacksAreWaste
+  - ferny.Worldbuilder
+  - RedMattis.BiggerGravship
+  - OPA.AllSpecialistsCanWork
+  - foodbowl.programmerlily.com
+  - tradingpost.programmerlily.com
+  - Defi.Blueprints.fork
+  - zal.customclimatecycle
+  - avius.locks
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - LingLuo.MoveSteamGeyser
+  - Virstag.EatWithYourMouthClosed
+  - BrushTool.programmerLily.com
+  - Ffisher.WildPlantsGiveHay
+  - ShipHullVents.programmerlily.com
+  - Mlie.ColdDesertNights
+  - automatic.traderships
+  - syrchalis.processor.framework
+  - FrozenSnowFox.BetterPawnLendingQuest
+  - calltradeships.cavenaugh.rw
+  - rabiosus.vfautoparking
+  - CoolNether123.ChronosPointer
+  - arl85.CorpseInfo
+  - MD.PrioritizeResearch
+  - zylle.Gemstones
+  - kathanon.ImpressionableChildren
+  - kikohi.jewelry
+  - harmonea.sleepdanger
+  - Mlie.JustIgnoreMePassing
+  - Kura.ExtraGems
+  - erdelf.MinifyEverything
+  - tk421storm.PriorityTreatmentRessurected
+  - RER.AccuracyOverlay
+  - Merthsoft.RemoveTutorialButton
+  - SoulRetextured.RTFuse
+  - ratys.rtfuse
+  - ratys.rtsolarflareshield
+  - Longman.SmallerRadiusForAnimaTreesAndShrines
+  - PureMJ.MjRimMods.SmartMeditation
+  - Mlie.TurretIdlePosition
+  - vanillaexpanded.outposts
+  - PrioritizedKillTool.ProgrammerLily.com
+  - programmerLily.comfortableFishing
+  - spdskatr.projectrimfactory
+  - ferny.propscore
+  - ProgrammerLily.HospitalityDoors.com
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+You need to provide working lists for the keys and values in order to be able to load such dictionary. label=forcedPrimaryWeapons
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.Scribe_Collections:Look<Verse.Pawn, string> (System.Collections.Generic.Dictionary`2<Verse.Pawn, string>&,string,Verse.LookMode,Verse.LookMode)
+AutoArm.AutoArmGameComponent:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.GameComponent> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,string,Verse.LookMode,object[])
+Verse.Game:ExposeSmallComponents ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+You need to provide working lists for the keys and values in order to be able to load such dictionary. label=forcedSidearmDefs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.Scribe_Collections:Look<Verse.Pawn, System.Collections.Generic.List`1<string>> (System.Collections.Generic.Dictionary`2<Verse.Pawn, System.Collections.Generic.List`1<string>>&,string,Verse.LookMode,Verse.LookMode)
+AutoArm.AutoArmGameComponent:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.GameComponent> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.GameComponent> (System.Collections.Generic.List`1<Verse.GameComponent>&,string,Verse.LookMode,object[])
+Verse.Game:ExposeSmallComponents ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[WorldTechLevel v1.1.6] Current world tech level is Unrestricted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+LunarFramework.Logging.IngameLogContext:Log (LunarFramework.Logging.LogContext/LogLevel,string,System.Exception)
+LunarFramework.Logging.LogContext:Log (string,System.Exception)
+WorldTechLevel.ResearchUtility:InitializeFor (RimWorld.Scenario)
+WorldTechLevel.Patches.Patch_WorldGenerator:GenerateFromScribe_Prefix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.WorldGenerator.GenerateFromScribe_Patch1 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.ExposeData_Patch1 (RimWorld.Planet.World)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[WorldTechLevel v1.1.6] Player faction tech level from scenario is Industrial.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+LunarFramework.Logging.IngameLogContext:Log (LunarFramework.Logging.LogContext/LogLevel,string,System.Exception)
+LunarFramework.Logging.LogContext:Log (string,System.Exception)
+WorldTechLevel.ResearchUtility:InitializeFor (RimWorld.Scenario)
+WorldTechLevel.Patches.Patch_WorldGenerator:GenerateFromScribe_Prefix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.WorldGenerator.GenerateFromScribe_Patch1 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.ExposeData_Patch1 (RimWorld.Planet.World)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#b7ff1c>[RimForge]</color> Created wireless power component for world 'UIR-91 Secundus'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimForge.Core:Log (string)
+RimForge.Power.WirelessPower:.ctor (RimWorld.Planet.World)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+RimWorld.Planet.World:FillComponents ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.ConstructComponents_Patch1 (RimWorld.Planet.World)
+RimWorld.Planet.GameSetupStep_Components:GenerateFromScribe ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.WorldGenerator.GenerateFromScribe_Patch1 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.ExposeData_Patch1 (RimWorld.Planet.World)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#b7ff1c>[RimForge]</color> Registered map late draw listener.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimForge.Core:Log (string)
+RimForge.Patches.Patch_DynamicDrawManager_DrawDynamicThings:TryRegisterListener (System.Action`1<Verse.Map>)
+RimForge.Effects.MapEffectHandler:FinalizeInit (bool)
+RimWorld.Planet.WorldComponentUtility:FinalizeInit (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.FinalizeInit_Patch6 (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#b7ff1c>[RimForge]</color> Shutting down particle processing thread...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimForge.Core:Log (string)
+RimForge.Effects.ThreadedEffectHandler:Stop ()
+RimForge.Effects.MapEffectHandler:FinalizeInit (bool)
+RimWorld.Planet.WorldComponentUtility:FinalizeInit (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.FinalizeInit_Patch6 (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#b7ff1c>[RimForge]</color> Stopped particle thread.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimForge.Core:Log (string)
+RimForge.Effects.ThreadedEffectHandler:Run ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#b7ff1c>[RimForge]</color> Started particle processing thread.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimForge.Core:Log (string)
+RimForge.Effects.ThreadedEffectHandler:Start ()
+RimForge.Effects.MapEffectHandler:FinalizeInit (bool)
+RimWorld.Planet.WorldComponentUtility:FinalizeInit (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.FinalizeInit_Patch6 (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1672
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1672
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1685
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1685
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1719
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1719
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1732
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1732
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1746
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1746
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1782
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1782
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/paidPawnsList, parent=Door1804
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to register the same list of load IDs twice. pathRelToParent=/oneTimePassPawns, parent=Door1804
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string,Verse.IExposable)
+Verse.LoadIDsWantedBank:RegisterLoadIDListReadFromXml (System.Collections.Generic.List`1<string>,string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.ScribeExtractor:SaveableFromNode<Verse.Thing> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Thing> (System.Collections.Generic.List`1<Verse.Thing>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.ExposeData_Patch1 (Verse.Map)
+Verse.ScribeExtractor:SaveableFromNode<Verse.Map> (System.Xml.XmlNode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Map> (System.Collections.Generic.List`1<Verse.Map>&,string,Verse.LookMode,object[])
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Cannot fill dictionary because there are no values. label=forcedPrimaryWeapons
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.Scribe_Collections:BuildDictionary<Verse.Pawn, string> (System.Collections.Generic.Dictionary`2<Verse.Pawn, string>,System.Collections.Generic.List`1<Verse.Pawn>,System.Collections.Generic.List`1<string>,string,bool)
+Verse.Scribe_Collections:Look<Verse.Pawn, string> (System.Collections.Generic.Dictionary`2<Verse.Pawn, string>&,string,Verse.LookMode,Verse.LookMode,System.Collections.Generic.List`1<Verse.Pawn>&,System.Collections.Generic.List`1<string>&,bool,bool,bool)
+Verse.Scribe_Collections:Look<Verse.Pawn, string> (System.Collections.Generic.Dictionary`2<Verse.Pawn, string>&,string,Verse.LookMode,Verse.LookMode)
+AutoArm.AutoArmGameComponent:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Cannot fill dictionary because there are no values. label=forcedSidearmDefs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.Scribe_Collections:BuildDictionary<Verse.Pawn, System.Collections.Generic.List`1<string>> (System.Collections.Generic.Dictionary`2<Verse.Pawn, System.Collections.Generic.List`1<string>>,System.Collections.Generic.List`1<Verse.Pawn>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<string>>,string,bool)
+Verse.Scribe_Collections:Look<Verse.Pawn, System.Collections.Generic.List`1<string>> (System.Collections.Generic.Dictionary`2<Verse.Pawn, System.Collections.Generic.List`1<string>>&,string,Verse.LookMode,Verse.LookMode,System.Collections.Generic.List`1<Verse.Pawn>&,System.Collections.Generic.List`1<System.Collections.Generic.List`1<string>>&,bool,bool,bool)
+Verse.Scribe_Collections:Look<Verse.Pawn, System.Collections.Generic.List`1<string>> (System.Collections.Generic.Dictionary`2<Verse.Pawn, System.Collections.Generic.List`1<string>>&,string,Verse.LookMode,Verse.LookMode)
+AutoArm.AutoArmGameComponent:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1672
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1672
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1685
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1685
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1719
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1719
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1732
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1732
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1746
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1746
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1782
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1782
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/paidPawnsList, parent=Door1804
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:116)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not get load IDs list. We're asking for something which was never added during LoadingVars. pathRelToParent=/oneTimePassPawns, parent=Door1804
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch3 (string)
+Verse.LoadIDsWantedBank:TakeList (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,bool,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,string,Verse.LookMode,object[])
+HospitalityDoors.CompPayGate:PostExposeData () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:117)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.ExposeData_Patch2 (Verse.ThingWithComps)
+Verse.Building:ExposeData ()
+RimWorld.Building_Door:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Not all loadIDs which were read were consumed.
+Lists:
+  List with 0 elements. pathRelToParent=/game/world/settlementCustomizationData/keys, parent=null
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Warning_Patch0 (string)
+Verse.LoadIDsWantedBank:ConfirmClear ()
+Verse.CrossRefHandler:Clear (bool)
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[HospitalityDoors] CompPayGate loaded on Door - Respawning: True
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HospitalityDoors.CompPayGate:PostSpawnSetup (bool) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/HospitalityDoors/Source/CompPayGate.cs:82)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ThingWithComps.SpawnSetup_Patch2 (Verse.ThingWithComps,Verse.Map,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Building.SpawnSetup_Patch4 (Verse.Building,Verse.Map,bool)
+RimWorld.Building_Door:SpawnSetup (Verse.Map,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GenSpawn.Spawn_Patch2 (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.Rot4,Verse.WipeMode,bool,bool)
+Verse.GenSpawn:SpawnBuildingAsPossible (Verse.Building,Verse.Map,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Simple FX: Splashes] Splash grid build with 370 cells.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+SimpleFxSplashes.SplashesUtility:RebuildCache (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/SplashesUtility.cs:116)
+SimpleFxSplashes.Patch_Map_FinalizeInit:Postfix (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/Patches.cs:15)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+QuickBuild: Cleared all reserved resources and timestamps
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+QuickDevBuild.QuickBuildHandler:ClearAllReservedResources ()
+QuickDevBuild.GameComponent_QuickBuild:FinalizeInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GameComponentUtility.FinalizeInit_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch8 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+ExpandedRoofing: Glass+Lights configuration done.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ExpandedRoofing.HarmonyPatches.Game_FinalizeInit:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch8 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Running pre-injection validation...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch8 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Testing weapon cache build...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch8 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Pre-injection validation passed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch8 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Yayo's Animation] GC : animation data count [150 -> 0]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+YayoAnimation.Data.PawnDataUtility:Reset ()
+YayoAnimation.HarmonyPatches.GameComponentUtilityPatch/ResetOnStartedOrLoaded:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GameComponentUtility.LoadedGame_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Running pre-injection validation...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+AutoArm.Game_LoadGame_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Testing weapon cache build...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+AutoArm.Game_LoadGame_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AutoArm] Pre-injection validation passed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:ValidatePreInjection ()
+AutoArm.Game_FinalizeInit_InjectThinkTree_Patch:Postfix ()
+AutoArm.Game_LoadGame_InjectThinkTree_Patch:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch5 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.SavedGameLoaderNow.LoadGameFromSaveFileNow_Patch1 (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[ShowModUpdates]: Last save writetime, 7/25/2025 7:59:40 PM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ShowModUpdates.ShowModUpdates:checkModUpdates ()
+ShowModUpdates.ShowModUpdates/<>c:<ReadyToRead>b__24_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66FF8CFF>[Fireflies 2.0] </color>[MapComponent_NightlySpawning] Current map biome: TemperateForest, Valid for spawning: True
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+FirefliesTwoO.FFLog:Message (string)
+FirefliesTwoO.MapComponent_NightlySpawning:InitializeMapSystems ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch2 (Verse.Root)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root_Play.Update_Patch1 (Verse.Root_Play)
+
+[ShowModUpdates]: Found no mod-updates since save was made at 7/25/2025 7:59 PM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ShowModUpdates.ShowModUpdates:checkModUpdates ()
+ShowModUpdates.ShowModUpdates/<>c:<ReadyToRead>b__24_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AllowTool] Adjusted work type priority of FinishingOff for pawns:
+Salinas:0->3, Sam:1->3
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+AllowTool.AllowToolUtility:EnsureAllColonistsHaveWorkTypeEnabled (Verse.WorkTypeDef,Verse.Map)
+AllowTool.AllowToolController:MapLoaded (Verse.Map)
+HugsLib.HugsLibController:OnMapLoaded (Verse.Map)
+HugsLib.HugsLibController/<>c__DisplayClass86_0:<OnMapInitFinalized>b__0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch2 (Verse.Root)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root_Play.Update_Patch1 (Verse.Root_Play)

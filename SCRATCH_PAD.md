@@ -1,5 +1,39 @@
 # SCRATCH PAD - Hospitality Pay-to-Access Doors Research
 
+## 🚨 CRITICAL FIX - Save/Load Serialization Issue - ✅ HOPEFULLY RESOLVED
+
+### Problem:
+- "Tried to register the same list of load IDs twice" errors during save/load
+- `PostExposeData()` was being called multiple times causing duplicate load ID registrations
+- Standard RimWorld serialization patterns weren't working in this modded environment
+
+### Root Cause Analysis:
+The issue occurs because:
+1. Multiple doors with CompPayGate components exist
+2. Each uses the same static collection identifiers ("paidPawnsList", "oneTimePassPawns")  
+3. RimWorld's serialization system treats these as duplicate registrations
+4. This happens especially during load processes where multiple components serialize simultaneously
+
+### Solution - Unique Collection Identifiers:
+- **Problem**: Static identifiers like "paidPawnsList" cause conflicts when multiple doors exist
+- **Fix**: Use unique identifiers per door: `"paidPawnsList_{parent.thingIDNumber}"`
+- **Benefits**: Each door component gets its own unique serialization namespace
+- **Backwards Compatible**: Uses same underlying data structures
+
+### Changes Made:
+```csharp
+// Before (BROKEN):
+Scribe_Collections.Look(ref paidPawnsList, "paidPawnsList", LookMode.Reference);
+
+// After (FIXED):
+var paidPawnsKey = $"paidPawnsList_{parent?.thingIDNumber ?? 0}";
+Scribe_Collections.Look(ref paidPawnsList, paidPawnsKey, LookMode.Reference);
+```
+
+### Status: ✅ HOPEFULLY FIXED - Build successful, unique identifiers should prevent load ID conflicts
+
+---
+
 ## Key Findings from Previous Research:
 
 ### Guest Silver Inventory:

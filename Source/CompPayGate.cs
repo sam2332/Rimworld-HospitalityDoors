@@ -14,18 +14,18 @@ namespace HospitalityDoors
         
         private int entryCost = DefaultCost;
         private bool payPerEntry = false;
-    // Use a List for Scribe compatibility, reconstruct HashSet at runtime
-    private List<Pawn> paidPawnsList = new List<Pawn>();
-    private HashSet<Pawn> paidPawns = new HashSet<Pawn>();
-    private int lifetimeEarnings = 0;
-    // Track pawns with a one-time pass (allowed to exit for free)
-    private List<Pawn> oneTimePassPawns = new List<Pawn>();
+        // Use Lists for both runtime and serialization
+        private List<Pawn> paidPawnsList = new List<Pawn>();
+        private int lifetimeEarnings = 0;
+        // Track pawns with a one-time pass (allowed to exit for free)
+        private List<Pawn> oneTimePassPawns = new List<Pawn>();
         
         // Exemption settings
         private bool exemptColonists = true;
         private bool exemptAllies = true;
         private bool exemptPrisoners = false;
         private bool exemptRobots = true;
+        private bool exemptAnimals = true;
         
         public CompProperties_PayGate Props => (CompProperties_PayGate)props;
         
@@ -42,7 +42,7 @@ namespace HospitalityDoors
             {
                 payPerEntry = value;
                 if (!value) // If switching to pay-once mode, clear the list
-                    paidPawns.Clear();
+                    paidPawnsList.Clear();
             }
         }
         
@@ -102,8 +102,7 @@ namespace HospitalityDoors
             }
         }
         
-        private bool paidPawnsLoaded = false;
-    public override void PostExposeData()
+        public override void PostExposeData()
         {
             base.PostExposeData();
             Scribe_Values.Look(ref entryCost, "entryCost", DefaultCost);
@@ -113,35 +112,23 @@ namespace HospitalityDoors
             Scribe_Values.Look(ref exemptPrisoners, "exemptPrisoners", false);
             Scribe_Values.Look(ref exemptRobots, "exemptRobots", true);
             Scribe_Values.Look(ref lifetimeEarnings, "lifetimeEarnings", 0);
-            Scribe_Collections.Look(ref oneTimePassPawns, "oneTimePassPawns", LookMode.Reference);
-
-            // Ensure oneTimePassPawns is always initialized
-            if (oneTimePassPawns == null)
-                oneTimePassPawns = new List<Pawn>();
-
-            // Vanilla-style: Only scribe paidPawnsList if node is entered
-            if (Scribe.EnterNode("paidPawns"))
-            {
-                try
-                {
-                    Scribe_Collections.Look(ref paidPawnsList, "li", LookMode.Reference);
-                }
-                finally
-                {
-                    Scribe.ExitNode();
-                }
-            }
+            
+            // Use unique identifiers based on parent to avoid conflicts
+            var paidPawnsKey = $"paidPawnsList_{parent?.thingIDNumber ?? 0}";
+            var oneTimePassKey = $"oneTimePassPawns_{parent?.thingIDNumber ?? 0}";
+            
+            Scribe_Collections.Look(ref paidPawnsList, paidPawnsKey, LookMode.Reference);
+            Scribe_Collections.Look(ref oneTimePassPawns, oneTimePassKey, LookMode.Reference);
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                paidPawns = new HashSet<Pawn>(paidPawnsList ?? new List<Pawn>());
-                // Clean up any null references
-                paidPawns.RemoveWhere(p => p == null || p.Dead || !p.Spawned);
-            }
-            else if (Scribe.mode == LoadSaveMode.Saving)
-            {
-                // Sync list from hashset before saving
-                paidPawnsList = paidPawns.ToList();
+                // Initialize lists if they're null after loading
+                paidPawnsList = paidPawnsList ?? new List<Pawn>();
+                oneTimePassPawns = oneTimePassPawns ?? new List<Pawn>();
+                
+                // Clean up null references and dead/despawned pawns
+                paidPawnsList.RemoveAll(p => p == null || p.Dead || !p.Spawned);
+                oneTimePassPawns.RemoveAll(p => p == null || p.Dead || !p.Spawned);
             }
         }
         
@@ -193,8 +180,8 @@ namespace HospitalityDoors
             // Exempt prisoners if enabled
             if (exemptPrisoners && pawn.IsPrisoner) return true;
             
-            // Always exempt animals (they don't carry silver anyway)
-            if (pawn.RaceProps.Animal) return true;
+            // Exempt animals (they don't carry silver anyway)
+            if (pawn.RaceProps.Animal && exemptAnimals) return true;
             
             // Exempt robots if enabled (default)
             if (exemptRobots && IsRobot(pawn)) return true;
@@ -267,7 +254,7 @@ namespace HospitalityDoors
             if (payPerEntry) return true;
 
             // If pay-once mode, check if they've already paid
-            return !paidPawns.Contains(pawn);
+            return !paidPawnsList.Contains(pawn);
         }
         /// Attempts to charge the pawn for entry
         /// </summary>
@@ -292,7 +279,7 @@ namespace HospitalityDoors
 
             // Track payment for pay-once mode
             if (!payPerEntry)
-                paidPawns.Add(pawn);
+                paidPawnsList.Add(pawn);
 
             // Give pawn a one-time pass to exit for free
             if (!oneTimePassPawns.Contains(pawn))
@@ -354,7 +341,6 @@ namespace HospitalityDoors
         /// </summary>
         public void ClearPaidPawns()
         {
-            paidPawns.Clear();
             paidPawnsList.Clear();
             oneTimePassPawns.Clear();
         }
@@ -376,8 +362,8 @@ namespace HospitalityDoors
             parts.Add($"Entry cost: {((float)entryCost).ToStringMoney()}");
             parts.Add($"Mode: {(payPerEntry ? "Pay every time" : "Pay once")}");
             
-            if (!payPerEntry && paidPawns.Count > 0)
-                parts.Add($"Paid guests: {paidPawns.Count}");
+            if (!payPerEntry && paidPawnsList.Count > 0)
+                parts.Add($"Paid guests: {paidPawnsList.Count}");
             
             // Always show lifetime earnings for enabled doors
             parts.Add($"Lifetime earnings: {((float)lifetimeEarnings).ToStringMoney()}");
